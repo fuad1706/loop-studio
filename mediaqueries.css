@@ -1,0 +1,38 @@
+@media screen and (max-width: 700px){
+
+    body{
+        overflow: hidden;
+    }
+    nav{
+        display: none;
+    }
+
+    .logo-nav{
+        padding: 30px 25px 0 25px;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .first-section{
+        background-image: url(./images/mobile/image-hero.jpg);
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    .first-sec-box{
+        width: 330px;
+        height: 230px;
+        margin: 200px auto;
+    }
+
+    .first-sec-box h1{
+        font-size: 25px;
+        margin: 0;
+    }
+}
