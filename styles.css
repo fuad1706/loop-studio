@@ -218,6 +218,14 @@ nav ul li a{
     /* line-height: ; */
 }
 
+/* .third-sec-twoa:hover, */
+/* .third-sec-twob:hover, */
+/* .third-sec-twoc:hover, */
+/* .third-sec-twod:hover{ */
+    /* background: var(--white); */
+    /* cursor: pointer; */
+/* } */
+
 .third-sec-three{
     display: flex;
     justify-content: space-between;
