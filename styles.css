@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
@@ -21,8 +20,8 @@
     box-sizing: border-box;
 }
 
-body{
-    overflow-x: hidden;
+html, body{
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 
@@ -41,6 +40,7 @@ body{
     justify-content: space-between;
     padding: 100px 150px 0 150px;
 }
+
 
 .hamburger{
     display: none;
@@ -84,10 +84,51 @@ nav ul li a{
 }
 
 .first-sec-box h1{
-    /* font-family: 'Alata', sans-serif; */
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Alata', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
     font-size: 55px;
+    font-weight: 100;
     color: var(--white);
     margin-left: 30px;
-    margin-top: 70px;
+    margin-top: 45px;
+}
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px;
+    
+}
+
+.seconseca{
+    background-image: url(./images/desktop/image-interactive.jpg);
+    width: 50%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: 100px; */
+}
+
+.seconsecb{
+    width: 50% ;
+    height: 300px;
+    background-color: var(--white);
+    transform: translateX(-120px);
+    margin-bottom: -100px;
+    text-align: left;
+    padding: 120px 70px 0 70px;
+}
+
+.seconsecb h1{
+    margin-bottom: 30px;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Alata', sans-serif;
+    color: var(--black);
+}
+
+.seconsecb p{
+    font-family: 'Alata', sans-serif;
+    color: var(--dark--gray);
+    font-size: 14px;
 }
