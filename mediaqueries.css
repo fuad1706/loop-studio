@@ -11,12 +11,12 @@
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease, background-color 0.3s ease; 
-        background-color: white;
-        width: 80%;
+        background-color: black;
+        width: 100%;
         height: 0;
         position: absolute;
-        top: 110px; 
-        right: 50%; 
+        top: 0px; 
+        right: 0; 
         /* transform: translateX(-50%);  */
         margin-right: auto;
         margin-left: auto;
@@ -29,8 +29,8 @@
 
         nav.open-nav {
             max-height: 500px; 
-            height: 50%; 
-            background-color: white; 
+            height: 100%; 
+            background-color: black; 
             z-index: 999;
     }
     nav ul {
@@ -45,10 +45,12 @@
 
     nav ul li a {
         font-size: 18px;
+        color: rgb(255, 255, 255);
     }
 
     .logo-nav{
         padding: 30px 25px 0 25px;
+        z-index: 999;
     }
 
     .hamburger{
@@ -91,13 +93,14 @@
         background-size: cover;
         margin-top: 50px;
         margin-bottom: 30px;
+        margin: 50px auto;
     }
 
     .seconsecb{
         width: 100%;
         padding: 0 20px;
         transform: translateX(0);
-        text-align: center;
+        text-align: center; 
     }
 
     .seconsecb h1{
@@ -113,65 +116,71 @@
     }
 
     .third-sec-one{
-        margin: 0;
-        flex-direction: column;
+        /* margin: 0; */
+        /* flex-direction: row; */
+        background: blue;
     }
 
     .third-sec-two{
         flex-direction: column;
     }
 
+
     .third-sec-twoa{
         background-image: url(./images/mobile/image-deep-earth.jpg);
-        width: 100%;
+        width: 90%;
         height: 200px;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
+        /* padding-top: 50px; */
         padding: 0;
+        margin: 0 auto;
     }
     
     .third-sec-twob{
         background-image: url(./images/mobile/image-night-arcade.jpg);
-        width: 100%;
+        width: 90%;
         height: 200px;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         padding-left: 5px;
+        margin: 0 auto;
     }
     
     .third-sec-twoc{
         background-image: url(./images/mobile/image-soccer-team.jpg);
-        width: 100%;
+        width: 90%;
         height: 200px;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         padding-left: 5px;
+        margin: 0 auto;
     }
     
     .third-sec-twod{
         background-image: url(./images/mobile/image-grid.jpg);
-        width: 100%;
+        width: 90%;
         height: 200px;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         padding-left: 5px;
         /* text-align: end; */
+        margin: 0 auto;
     }
 
-    .third-sec-twoa h2, 
+.third-sec-twoa h2, 
 .third-sec-twob h2,
 .third-sec-twoc h2,
 .third-sec-twod h2{
-    margin: 0;
+    margin-top: 0;
     font-family: 'Alata', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     color: var(--white);
     font-weight: 100;
-    /* line-height: ; */
 }
 
 .third-sec-three{
@@ -182,24 +191,26 @@
 .third-sec-threea{
 
     background-image: url(./images/mobile/image-from-above.jpg);
-    width: 100%;
+    width: 90%;
     height: 200px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 0;
+    margin: 0 auto;
     
     }
     
     .third-sec-threea{
     
         background-image: url(./images/mobile/image-from-above.jpg);
-        width: 100%;
+        width: 90%;
         height: 200px;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         padding: 0;
+        margin: 0 auto;
         
         
         
@@ -208,35 +219,38 @@
     .third-sec-threeb{
     
             background-image: url(./images/mobile/image-pocket-borealis.jpg);
-            width: 100%;
+            width: 90%;
             height: 200px;
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
             padding: 0;
+            margin: 0 auto;
             
             }
     
     .third-sec-threec{
     
                 background-image: url(./images/mobile/image-curiosity.jpg);
-                width: 100%;
+                width: 90%;
                 height: 200px;
                 background-position: center;
                 background-size: contain;
                 background-repeat: no-repeat;
                 padding: 0;
+                margin: 0 auto;
                 
                 }
     
                 .third-sec-threed{
     
                     background-image: url(./images/mobile/image-fisheye.jpg);
-                    width: 100%;
+                    width: 90%;
                     height: 200px;
                     background-position: center;
                     background-size: contain;
                     background-repeat: no-repeat;
+                    margin: 0 auto;
                     
                     }
 

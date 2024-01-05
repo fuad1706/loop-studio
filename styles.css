@@ -23,6 +23,8 @@
 body{
     overflow-x: hidden;
     scroll-behavior: smooth;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .first-section{
@@ -84,8 +86,8 @@ nav ul li a{
 }
 
 .first-sec-box h1{
-    font-family: 'Alata', sans-serif;
-    /* font-family: 'Josefin Sans', sans-serif; */
+    /* font-family: 'Alata', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 55px;
     font-weight: 100;
     color: var(--white);
@@ -122,8 +124,8 @@ nav ul li a{
 
 .seconsecb h1{
     margin-bottom: 30px;
-    /* font-family: 'Josefin Sans', sans-serif; */
-    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Alata', sans-serif; */
     color: var(--black);
 }
 
@@ -143,12 +145,16 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
+    
 }
 
 .third-sec-one h2{
-    font-family: 'Alata', sans-serif;
+    /* font-family: 'Alata', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
     font-size: 30px;
+    background: blue;
+    z-index: 999;
 }
 
 .third-sec-one button{
@@ -157,6 +163,8 @@ nav ul li a{
     font-family: 'Alata', sans-serif;
     font-size: 12px;
     cursor: pointer;
+    background: blue;
+    z-index: 999;
     
 }
 
@@ -212,7 +220,7 @@ nav ul li a{
 .third-sec-twoc h2,
 .third-sec-twod h2{
     margin-top: 500px;
-    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: var(--white);
     font-weight: 100;
     /* line-height: ; */
@@ -291,7 +299,7 @@ padding-left: 40px;
                 .third-sec-threec h2,
                 .third-sec-threed h2{
                     margin-top: 500px;
-                    font-family: 'Alata', sans-serif;
+                    font-family: 'Josefin Sans', sans-serif;
                     color: var(--white);
                     font-weight: 100;
                 }
