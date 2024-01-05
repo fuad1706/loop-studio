@@ -20,7 +20,7 @@
     box-sizing: border-box;
 }
 
-html, body{
+body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -132,3 +132,158 @@ nav ul li a{
     color: var(--dark--gray);
     font-size: 14px;
 }
+
+.third-section{
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px;
+}
+
+.third-sec-one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.third-sec-one h2{
+    font-family: 'Alata', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.third-sec-one button{
+    padding: 7px 30px;
+    background: none;
+    font-family: 'Alata', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.third-sec-one button:hover{
+    background: var(--black);
+    color: var(--white);
+}
+
+.third-sec-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-sec-twoa{
+    background-image: url(./images/desktop/image-deep-earth.jpg);
+    width: 23%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+}
+
+.third-sec-twob{
+    background-image: url(./images/desktop/image-night-arcade.jpg);
+    width: 23%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+}
+
+.third-sec-twoc{
+    background-image: url(./images/desktop/image-soccer-team.jpg);
+    width: 23%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+}
+
+.third-sec-twod{
+    background-image: url(./images/desktop/image-grid.jpg);
+    width: 23%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+    /* text-align: end; */
+}
+
+.third-sec-twoa h2, 
+.third-sec-twob h2,
+.third-sec-twoc h2,
+.third-sec-twod h2{
+    margin-top: 500px;
+    font-family: 'Alata', sans-serif;
+    color: var(--white);
+    font-weight: 100;
+    /* line-height: ; */
+}
+
+.third-sec-three{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.third-sec-threea{
+
+background-image: url(./images/desktop/image-from-above.jpg);
+width: 23%;
+height: 600px;
+background-position: center;
+background-size: cover;
+padding-left: 40px;
+
+}
+
+.third-sec-threea{
+
+    background-image: url(./images/desktop/image-from-above.jpg);
+    width: 23%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+    
+    }
+
+.third-sec-threeb{
+
+        background-image: url(./images/desktop/image-pocket-borealis.jpg);
+        width: 23%;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+        padding-left: 40px;
+        
+        }
+
+.third-sec-threec{
+
+            background-image: url(./images/desktop/image-curiosity.jpg);
+            width: 23%;
+            height: 600px;
+            background-position: center;
+            background-size: cover;
+            padding-left: 40px;
+            
+            }
+
+            .third-sec-threed{
+
+                background-image: url(./images/desktop/image-fisheye.jpg);
+                width: 23%;
+                height: 600px;
+                background-position: center;
+                background-size: cover;
+                padding-left: 40px;
+                
+                }
+                .third-sec-threea h2,
+                .third-sec-threeb h2,
+                .third-sec-threec h2,
+                .third-sec-threed h2{
+                    margin-top: 500px;
+                    font-family: 'Alata', sans-serif;
+                    color: var(--white);
+                    font-weight: 100;
+                }
