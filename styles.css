@@ -163,6 +163,7 @@ nav ul li a{
     font-size: 12px;
     cursor: pointer;
     z-index: 999;
+    border: 2px solid black ;
     
 }
 
@@ -344,5 +345,4 @@ padding-left: 40px;
 .footer2 p{
     color: var(--dark--gray);
     font-family: 'Alata', sans-serif;
-    padding: -20px;
 }
