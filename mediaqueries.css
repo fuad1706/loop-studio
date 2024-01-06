@@ -115,15 +115,33 @@
         margin: 0;
     }
 
+
+
     .third-sec-one{
-        /* margin: 0; */
-        /* flex-direction: row; */
-        background: blue;
+        /* margin: 0 auto; */
+    }
+
+    .third-sec-one h2{
+        margin: 0 auto;
+    }
+
+    .third-sec-one button{
+        display: none;
     }
 
     .third-sec-two{
         flex-direction: column;
+
     }
+
+    .see-all2{
+        display: block;
+        margin: 30px auto;
+    }
+
+   
+   
+   
 
 
     .third-sec-twoa{

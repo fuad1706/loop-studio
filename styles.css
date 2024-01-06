@@ -153,19 +153,21 @@ nav ul li a{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
     font-size: 30px;
-    background: blue;
     z-index: 999;
 }
 
-.third-sec-one button{
+.third-sec-one button, .see-all2{
     padding: 7px 30px;
     background: none;
     font-family: 'Alata', sans-serif;
     font-size: 12px;
     cursor: pointer;
-    background: blue;
     z-index: 999;
     
+}
+
+.see-all2{
+    display: none;
 }
 
 .third-sec-one button:hover{
@@ -342,4 +344,5 @@ padding-left: 40px;
 .footer2 p{
     color: var(--dark--gray);
     font-family: 'Alata', sans-serif;
+    padding: -20px;
 }
