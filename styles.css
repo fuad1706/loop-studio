@@ -73,6 +73,24 @@ nav ul li a{
     color: var(--white);
     font-weight: 400;
 
+    position: relative;
+
+}
+
+nav ul li a::before{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: var(--white);
+    position: absolute;
+    bottom: -10px;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav ul li a:hover::before{
+    width: 100%;
 }
 
 .first-sec-box{
@@ -215,7 +233,6 @@ nav ul li a{
     background-position: center;
     background-size: cover;
     padding-left: 40px;
-    /* text-align: end; */
 }
 
 .third-sec-twoa h2, 
@@ -226,7 +243,6 @@ nav ul li a{
     font-family: 'Josefin Sans', sans-serif;
     color: var(--white);
     font-weight: 100;
-    /* line-height: ; */
 }
 
 .third-sec-twoa:hover,
@@ -338,12 +354,49 @@ padding-left: 40px;
     text-decoration: none;
     color: var(--white);
     font-family: 'Alata', sans-serif;
+
+    position: relative;
+}
+.footer-nav ul li a::before{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: var(--white);
+    position: absolute;
+    bottom: -10px;
+
+    transition: all ease-in-out 250ms;
+}
+
+.footer-nav ul li a:hover::before{
+    width: 100%;
 }
 
 .social{
     margin-bottom: 30px;
     margin-left: 170px;
     cursor: pointer;
+}
+
+.social a{
+    position: relative;
+}
+
+.social a::before{
+    content: '';
+    display: inline-block;
+    height: 2px;
+    width: 0%;
+    background-color: var(--white);
+    position: absolute;
+    bottom: -10px;
+
+    transition: all ease-in-out 250ms;
+}
+
+.social a:hover::before{
+    width: 70%;
 }
 
 
